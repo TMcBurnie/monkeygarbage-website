@@ -5,7 +5,7 @@ const Container = styled.div`
   text-align: center;
 `
 const PronouncedText = styled.span`
-  color: orange;
+  color: coral;
   font-size: 1.5rem;
 `
 
