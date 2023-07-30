@@ -24,6 +24,7 @@ jobs:
       - name: Deploy to Live
         run: |
           echo "Deploying main to Live..."
+          npm i
           npm run build
           firebase deploy --only hosting
           echo "Deploy Complete!"
