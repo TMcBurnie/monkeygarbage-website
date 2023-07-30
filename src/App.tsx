@@ -15,7 +15,7 @@ function App() {
     <Container>
       <PronouncedText>MonkeyGarbage.co.uk</PronouncedText> is currently under construction.
       <br />
-      Please check back <PronouncedText>soon</PronouncedText>
+      Please check back <PronouncedText>soon!</PronouncedText>
     </Container>
   )
 }
