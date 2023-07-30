@@ -21,6 +21,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - uses: firebase/login@v1
       - name: Deploy to Live
         run: |
           echo "Deploying main to Live..."
