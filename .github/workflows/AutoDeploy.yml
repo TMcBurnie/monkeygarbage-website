@@ -25,6 +25,7 @@ jobs:
         run: |
           echo "Deploying main to Live..."
           npm i
+          npm install -g firebase-tools
           npm run build
           firebase deploy
           echo "Deploy Complete!"
